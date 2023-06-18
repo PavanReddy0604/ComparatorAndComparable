@@ -31,6 +31,7 @@ public class ImplementingClass {
 			System.out.println(emp);
 		}
 		
+		System.out.println("\n");
 		//sorting Based on Name
 		System.out.println("=====before sorting the list based on name=====");
 		for(Employee emp :employees)
@@ -46,6 +47,8 @@ public class ImplementingClass {
 		}
 		
 		employees.add(new Employee(89,"bhupesh",LocalDateTime.now(),3487L));
+		
+		System.out.println("\n");
 		
 		//sorting Based on Name
 				System.out.println("=====before sorting the list based on both name and id=====");
